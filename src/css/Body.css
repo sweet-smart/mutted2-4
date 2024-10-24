@@ -1,0 +1,59 @@
+/* Sportify.css */
+
+.sportify-background {
+    background-color: #ff5b5b;
+    /* Pinkish background */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    padding: 20px;
+}
+
+.navbar-section {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.content-section {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.main-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.sub-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.created-by,
+.visiata {
+    font-size: 1.2rem;
+}
+
+/* Add a transparent background to the right-section and adjust image opacity */
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    /* Transparent background */
+}
+
+.right-image {
+    opacity: 0.8;
+    /* Adjust the opacity for transparency */
+    width: 100%;
+    /* Adjust as necessary */
+    max-width: 400px;
+}
